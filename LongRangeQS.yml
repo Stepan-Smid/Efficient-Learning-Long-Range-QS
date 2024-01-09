@@ -1,0 +1,21 @@
+name: LongRangeQS
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - numpy>=1.13
+  - scipy>=0.18
+  - cython>=0.29
+  - mkl
+  - mkl-devel
+  - libblas=*=*mkl  # pin BLAS to use MKL
+  - bottleneck
+  - setuptools>=30.3.0
+  - h5py
+  - pyyaml
+  - pytest>=0.6
+  - physics-tenpy
+  - pip:
+      - scikit-learn==1.3.2
+      - matplotlib==3.8.0
