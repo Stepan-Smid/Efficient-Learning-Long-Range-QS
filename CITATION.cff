@@ -17,6 +17,6 @@ preferred-citation:
   - family-names: "Bondesan"
     given-names: "Roberto"
   doi: "10.48550/arXiv.2312.17019"
-  month: "December"
+  month: 12
   title: "Efficient Learning of Long-Range and Equivariant Quantum Systems"
   year: 2023
